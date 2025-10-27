@@ -14,7 +14,7 @@ services:
     ports:
       - 3000:1337 
     env_file:
-      - .env
+      - stack.env
     
       # Using Gravatar directly exposes user IPs and hashed emails to a third party (GDPR risk).
       # Use a proxy you control for privacy, or leave commented out or empty to disable.
